@@ -1,8 +1,8 @@
 # carnet
 
-### Unofficial Javascript Wrapper for VW's CarNet API.
+## Unofficial Javascript Wrapper for VW's CarNet API.
 
-This package is based on [thomasesmith](https://github.com/thomasesmith/vw-car-net-api) Api documentation.
+This package is based on [thomasesmith](https://github.com/thomasesmith/vw-car-net-api) API documentation.
 
 ## Installing
 
@@ -37,7 +37,7 @@ const [car] = await carNet.vehicles();
 
 This will return an array of Vehicle Classes.
 
-### Connecting to your car.
+### Connecting to your car
 
 ```javascript
 const carController = await carNet.connectToCar(car);
@@ -51,7 +51,7 @@ await carController.authenticate(pin);
 await carController.status();
 ```
 
-## Vehicle Methods.
+## Vehicle Methods
 
 - `lockDoor()` Locks the door of your car.
 - `unlockDoor()` Unlocks the door of your car.
